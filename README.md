@@ -1,7 +1,13 @@
 ## Quiz APP
 
 clone the code from github to a folder then open with visual studio code
+```bash
+git clone https://github.com/anandhuRaveendran/quiz-app.git
+```
 Change directory to quiz-app.
+```bash
+cd quiz-app
+```
 
 ## Getting Started
 
