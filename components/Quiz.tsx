@@ -38,7 +38,7 @@ const Quiz: React.FC = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(60);
+  const [timeLeft, setTimeLeft] = useState(10);
   const [showSummary, setShowSummary] = useState(false);
   const [share, setShare] = useState(false);
   const [answers, setAnswers] = useState<Answer[]>([]);
@@ -107,7 +107,7 @@ const Quiz: React.FC = () => {
     setCurrentQuestionIndex(0);
     setScore(0);
     setSelectedOption(null);
-    setTimeLeft(60);
+    setTimeLeft(10);
     setShowSummary(false);
     setAnswers([]);
     setShare(false)
